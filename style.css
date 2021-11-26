@@ -1,10 +1,15 @@
 body {
-  min-height: 2000px;
+  background: #a9a7ec;
 }
 .jumbotron {
-  padding-top: 5rem;
   background-color: #ffe6009a;
 }
+#about {
+  background-color: #bdb76b;
+}
 #contact {
-  background-color: #0099ff85;
+  background-color: #0099ff;
+}
+#gallery {
+  background-color: #a9a7ec;
 }
