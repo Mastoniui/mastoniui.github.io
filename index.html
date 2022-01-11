@@ -20,37 +20,29 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home">Mastoni</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <div class="container">
+    <a class="navbar-brand" href="#">My Profil</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <!-- Akhir Navbar -->
     <!-- Jumbotron -->
     <section class="jumbotron text-center" id="home">
@@ -58,7 +50,7 @@
         src="img/mastoni.jpg "
         alt="Mastoni"
         width="200"
-        class="rounded-circle "
+        class="rounded-circle img-thumbnail "
       />
       <h1 class="display-4">Mastoni</h1>
       <p class="lead">PMII | Pergerakan Mahasiswa Islam Indonesia</p>
@@ -89,11 +81,11 @@
         <div class="container">
           <div class="row text-center  ">
             <div class="col ">
-              <h2>My Galerry</h2>
+              <h2>My Gallery</h2>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card" >
                 <img
                   src="img/gallery/1.jpg"
@@ -107,7 +99,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card" >
                 <img
                   src="img/gallery/2.jpg"
@@ -121,7 +113,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card" >
                 <img
                   src="img/gallery/3.jpg"
@@ -135,7 +127,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card" >
                 <img
                   src="img/gallery/4.jpg"
@@ -149,7 +141,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card" >
                 <img
                   src="img/gallery/5.jpg"
@@ -163,7 +155,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card">
                 <img src="img/gallery/6.jpg" class="card-img-top" alt="galerry5" />
                 <div class="card-body">
@@ -173,7 +165,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card">
                 <img src="img/gallery/7.jpg" class="card-img-top" alt="galerry5" />
                 <div class="card-body">
@@ -183,7 +175,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <div class="card">
                 <img src="img/gallery/8.jpg" class="card-img-top" alt="galerry5" />
                 <div class="card-body">
@@ -218,7 +210,7 @@
                 aria-describedby="name"/>
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <label for="Email1" class="form-label">Email </label>
                 <input type="email" class="form-control" id="email"
                 aria-describedby="email"/>
               </div>
